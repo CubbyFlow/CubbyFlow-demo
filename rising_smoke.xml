@@ -9,7 +9,7 @@
 		<string name="method" value="woodcock"/>
 
 		<volume name="density" type="gridvolume">
-			<string name="filename" value="data/smoke_sim_demo4/frame_000250.vol"/>
+			<string name="filename" value="Datas/rising_smoke/frame_000250.vol"/>
 		</volume>
 
 		<volume name="albedo" type="constvolume">
@@ -19,12 +19,12 @@
 	</medium>
 
 	<shape type="obj">
-		<string name="filename" value="objects/rising_smoke_bounds.obj"/>
+		<string name="filename" value="Objects/rising_smoke_bounds.obj"/>
 		<ref name="interior" id="smoke"/>
 	</shape>
 
 	<shape type="obj">
-		<string name="filename" value="objects/rising_smoke_plane.obj"/>
+		<string name="filename" value="Objects/rising_smoke_plane.obj"/>
 
 		<bsdf type="diffuse">
 			<rgb name="diffuseReflectance" value=".2, .25, .3"/>
